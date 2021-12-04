@@ -1,7 +1,6 @@
 import { Box, Button, Stack } from "@mui/material";
 import React, { useState } from "react";
 import Chat from "./tab/chat";
-import Gift from "./tab/Gift";
 import Member from "./tab/member";
 import More from "./tab/more";
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
@@ -9,6 +8,8 @@ import ChatIcon from '@mui/icons-material/Chat';
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import SettingsIcon from '@mui/icons-material/Settings';
+import Gift from "./tab/gift";
+
 
 
 export default function Kakao() {
